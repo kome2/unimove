@@ -6,6 +6,7 @@ import numpy as np
 import sys
 from PIL import Image
 from argparse import ArgumentParser
+import os
 
 def get_option():
     argparser = ArgumentParser()
@@ -16,6 +17,10 @@ def get_option():
     return args
 
 def unimove(inputFile, frameNum, startTime):
+    if not os.path.exists(inputFile):
+        print("error:", inputFile, "does not exist", file=sys.stderr)
+        exit()
+    
     cap = cv2.VideoCapture(inputFile)
     bgs_gsoc = cv2.bgsegm.createBackgroundSubtractorGSOC()
     
