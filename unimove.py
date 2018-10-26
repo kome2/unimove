@@ -46,7 +46,7 @@ def unimove(inputFile, frameNum, startTime):
             cv2.destroyAllWindows()
             exit()
         elif k == ord('w'):
-            fileName = '../' + str(i) + '.jpg'
+            fileName = './output/' + str(i) + '.jpg'
             cv2.imwrite(fileName, union)
         i += 1
 

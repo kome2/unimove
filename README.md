@@ -6,14 +6,7 @@ It requires the following environments.
 * OpenCV 3.4.3 or more (https://github.com/opencv/opencv)
 * OpenCV_contrib (https://github.com/opencv/opencv_contrib)
 
-unimoveは、定点撮影の動画から動体を抽出し、その移動軌跡の合成画像を生成するスクリプトである。  
-  
-動作確認環境は以下のとおりである。  
-* Python 3.5 or more
-* OpenCV 3.4.3 or more (https://github.com/opencv/opencv)
-* OpenCV_contrib (https://github.com/opencv/opencv_contrib)
-
-# How to use (使い方)
+# How to use
   
 ```
 usage: unimove.py [-h] [-f FRAME] [-s START] input  
@@ -35,10 +28,16 @@ When you execute this script, it creates a composite image of movement objects' 
 During the script execution, you can stop the script when you press 'q'.   
 Moreover, you can output the composite image of that moment into the same directory of this script when you press 'w'.  
   
+# Sample  
+Input movie  
+![Input](https://github.com/kome2/unimove/raw/master/img/sample.gif) "Input movie")  
   
-実行中にqをタイプすることでスクリプトは停止する。  
-また生成中の画像を出力したいときは、実行中にwをタイプすることで、その瞬間の画像をスクリプトファイルを同じ階層に出力できる。
+Output Image  
+![Output](https://github.com/kome2/unimove/raw/master/img/sample.jpg) "Output image")  
 
+# Refrence 
+日本語記事はこちら   
+https://www.komee.org/entry/2018/10/27/120000  
 
 # Contact
 kome@hongo.wide.ad.jp
