@@ -30,10 +30,10 @@ Moreover, you can output the composite image of that moment into the same direct
   
 # Sample  
 Input movie  
-![Input](https://github.com/kome2/unimove/raw/master/img/sample.gif) "Input movie")  
+![Input](https://github.com/kome2/unimove/raw/master/img/sample.gif)  
   
 Output Image  
-![Output](https://github.com/kome2/unimove/raw/master/img/sample.jpg) "Output image")  
+![Output](https://github.com/kome2/unimove/raw/master/img/sample.jpg)  
 
 # Refrence 
 日本語記事はこちら   
